@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#weather input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#weather button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#weather button:hover {
+    background-color: #0056b3;
+}
+
+
+#weather-info {
+    margin-top: 20px;
+}
+
+#temperature-section h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#temperature-section h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#details-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#humidity-section, #wind-section {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+#humidity-section img, #wind-section img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+#sun{
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sunid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.error{
+    display: none;
+}
+
+#para{
+    color: red;
+}
