@@ -1,5 +1,5 @@
 # Weather app-
-This project has weather app  use HTML,CSS and javascrpit and get data from api
+Weather app  use HTML,CSS and javascrpit and get data from api
 
 this is screen shot of weather app
 
