@@ -1,4 +1,4 @@
-# Weather-
+# Weather app-
 This project has weather app  useing HTML,CSS and javascrpit user can see weather 
 
 this is screen shot of weather app
